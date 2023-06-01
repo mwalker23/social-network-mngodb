@@ -1,9 +1,9 @@
 const { ObjectId } = require('mongoose').Types;
-const { thought, user } = require('../models');
+const { Thought, User } = require('../models');
 
 
 const reactionCount = async () => {
-  const numberOfThoughts = await thhought.aggregate()
+  const numberOfThoughts = await Thought.aggregate()
     .count('thoughtCount');
   return numberOfThoughts;
 }

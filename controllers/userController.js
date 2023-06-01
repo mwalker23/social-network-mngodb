@@ -1,12 +1,13 @@
-const { user, thought } = require('../models');
+const { User, Thought } = require('../models');
 
 module.exports = {
   // Get all users
   async getUsers(req, res) {
     try {
-      const users = await user.find();
+      const users = await User.find();
       res.json(users);
     } catch (err) {
+      console.log(err);
       res.status(500).json(err);
     }
   },
