@@ -1,4 +1,4 @@
-# social-network-mngodb
+# social-network-mongodb
 
 # NoSQL: Social Network API
 
@@ -30,3 +30,12 @@ THEN I am able to successfully create, update, and delete users and thoughts in 
 WHEN I test API POST and DELETE routes in Insomnia
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 ```
+
+## Screenshot 
+
+![screenshot](Screenshot%202023-06-01%20at%208.02.06%20PM.png)
+
+## Video 
+
+[![](https://markdown-videos.deta.dev/youtube/{EceiKLIAJZY})](https://youtu.be/{EceiKLIAJZY})
+
