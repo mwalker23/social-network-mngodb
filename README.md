@@ -32,8 +32,12 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 ```
 
 ## Screenshot 
+Insomnia
+![screenshot](SS_Insomnia.png)
+MongoDB
+![screenshot](SS_Mongo1.png)
+![screenshot](SS_Mongo2.png)
 
-![screenshot](Screenshot%202023-06-01%20at%208.02.06%20PM.png)
 
 ## Video 
 
